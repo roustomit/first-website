@@ -88,6 +88,12 @@ nav h3 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.footer {
+  color: rgb(235, 33, 33);
+  margin-top: 70%;
+  margin-left: 45%;
+  font-weight: 600;
+}
 
 .titlediscription h1 {
   font-size: 60px;
