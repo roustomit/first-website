@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  min-height: 150vh;
+  width: 100%;
+  background-image: url("imaje/My Pic.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav {
+  display: flex;
+  padding: 3% 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h3 {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.nav-menu {
+  flex: 1;
+  text-align: right;
+}
+.nav-menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 12px;
+  position: relative;
+}
+.nav-menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.nav-menu ul li::after {
+  content: "";
+  width: 0px;
+  height: 5px;
+  background: black;
+  display: block;
+  margin: auto;
+  position: absolute;
+  bottom: -5px;
+  transition: 0.5s;
+}
+.nav-menu ul li:hover::after {
+  width: 100%;
+}
+
+.portFolio-image {
+  height: 100px;
+  width: 80px;
+  margin-left: 20px;
+  /* transform: translate(25%, -28%); */
+}
+.portfolio-image {
+  height: 100px;
+  width: 80px;
+  margin-right: 20px;
+  /* transform: translate(25%, -28%); */
+}
+
+.left-pic {
+  margin-top: 25px;
+  /* position: left; */
+  /* margin-left: 45px; */
+}
+.pic {
+  margin: 0px, 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.titlediscription {
+  margin-bottom: 25px;
+  width: 90%;
+  color: red;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.titlediscription h1 {
+  font-size: 60px;
+}
+.titlediscription p {
+  margin: 10px 0 40px;
+  font-size: 15px;
+  color: white;
+}
+
+.titlediscription a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid white;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  padding: 13px 30px;
+  font-size: 14px;
+}
+.titlediscription a:hover {
+  background: green;
+  border: 2px solid black;
+  transition: 1s;
+}
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
